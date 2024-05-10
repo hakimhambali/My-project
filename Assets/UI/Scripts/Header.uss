@@ -1,0 +1,57 @@
+:root {
+    --background-img: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Icon_Icons_(Original)/icon_setting.png?fileID=21300000&guid=c446f3523fe974510bf947e13d8a5e49&type=3#icon_setting');
+    --background-img2: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Icon_Icons_(Original)/icon_gem_2_green.png?fileID=21300000&guid=e4c5cc8813c664b4b9202721cbfc0460&type=3#icon_gem_2_green');
+    --background-img3: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Icon_Icons_(Original)/icon_coins.png?fileID=21300000&guid=5e1df74f0fcc9424c861d8801e30c748&type=3#icon_coins');
+    --background-img4: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Slider/slider_icontype_03_icon_l.png?fileID=21300000&guid=7b63dead1d8dc4b7ea48867b93168795&type=3#slider_icontype_03_icon_l');
+    --background-img5: url('project://database/Assets/Sprites/rank.png?fileID=2800000&guid=9e1922315fed905469ed35d24c90ddec&type=3#rank');
+    --background-img6: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_menu05_boss.png?fileID=21300000&guid=711e54b18d920433a89247353713f9a8&type=3#set_icon_menu05_boss');
+    --background-img7: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Slider/slider_icontype_00_bot_fill_yellow.png');
+    --background-img8: url('project://database/Assets/Layer Lab/GUI Pro-FantasyRPG/ResourcesData/Sprites/Component/Slider/slider_icontype_05_icon1.png');
+    --background-img9: url('project://database/Assets/Sprites/rank.png');
+    --background-img10: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_01_frame_purple1.png');
+}
+
+#SettingIcon {
+    background-image: var(--background-img);
+}
+
+#GemIcon {
+    background-image: var(--background-img2);
+}
+
+#GoldIcon {
+    background-image: var(--background-img3);
+}
+
+#ProfileIcon {
+    background-image: var(--background-img4);
+}
+
+/* #RankIcon {
+    background-image: var(--background-img5);
+} */
+
+#ProfileAvatar {
+    background-image: var(--background-img6);
+}
+
+/* #RankSlider {
+    background-image: var(--background-img7);
+} */
+
+#RankSliderProgressBar {
+    background-color: orange;
+    width: 50%;
+}
+
+#RankLevel {
+    background-image: var(--background-img8);
+}
+
+#ContainerRank {
+    background-image: var(--background-img10);
+}
+
+#RankIcon {
+    background-image: var(--background-img9);
+}

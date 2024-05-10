@@ -1,0 +1,87 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Scripts/Gameplay.uss?fileID=7433441132597879392&amp;guid=8dfd1e4376850d64c9a20a7059fe1b0c&amp;type=3#Gameplay" />
+    <ui:VisualElement name="BackgroundImage" style="flex-grow: 1;">
+        <ui:VisualElement name="Header" style="flex-grow: 1; height: 15%; flex-direction: row;">
+            <ui:VisualElement name="HeaderLeft" style="flex-grow: 1; width: 40%; flex-direction: row; padding-right: 15%;">
+                <ui:VisualElement style="flex-grow: 1; width: 40%; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+                    <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: auto; height: 85%; padding-left: 0; padding-right: 0; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);">
+                        <ui:VisualElement name="WarriorAvatarRound" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.39);">
+                            <ui:Label tabindex="-1" text="HANG NASIR" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-grow: 1; align-self: auto; -unity-text-align: lower-center; color: rgb(255, 255, 255); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;); font-size: 26px;" />
+                            <ui:Label tabindex="-1" text="3" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-grow: 1; align-self: auto; -unity-text-align: lower-center; color: rgb(255, 255, 255); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;); position: absolute; left: 7%; font-size: 40px;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1; width: 30%; padding-bottom: 5%;">
+                    <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: auto; height: 85%; padding-left: 0; padding-right: 0; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);">
+                        <ui:VisualElement name="WarriorAvatarRound" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.39);">
+                            <ui:Label tabindex="-1" text="HANG NASIR" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-grow: 1; align-self: auto; -unity-text-align: lower-center; color: rgb(255, 255, 255); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;); border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); font-size: 21px;" />
+                            <ui:Label tabindex="-1" text="5" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-grow: 1; align-self: auto; -unity-text-align: lower-center; color: rgb(255, 255, 255); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;); position: absolute; left: 7%; font-size: 30px;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: 30%; padding-bottom: 5%;">
+                    <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: auto; height: 85%; padding-left: 0; padding-right: 0; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);">
+                        <ui:VisualElement name="WarriorAvatarRound" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.39);">
+                            <ui:Label tabindex="-1" text="HANG NASIR" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-grow: 1; align-self: auto; -unity-text-align: lower-center; color: rgb(255, 255, 255); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;); font-size: 21px;" />
+                            <ui:Label tabindex="-1" text="9" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-grow: 1; align-self: auto; -unity-text-align: lower-center; color: rgb(255, 255, 255); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;); position: absolute; left: 7%; font-size: 30px;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; width: 20%; padding-bottom: 3%;">
+                <ui:VisualElement style="flex-grow: 1; flex-direction: row; background-color: rgba(0, 0, 0, 0.39); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;">
+                    <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: column; width: 40%; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;">
+                        <ui:VisualElement name="Time-icon" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 1; width: 60%;">
+                        <ui:Label tabindex="-1" text="05:43" parse-escape-sequences="true" display-tooltip-when-elided="true" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Fonts/Uncial_Antiqua/UncialAntiqua-Regular.ttf?fileID=12800000&amp;guid=72474e67a28b1f644824d6045cac6c92&amp;type=3#UncialAntiqua-Regular&apos;); font-size: 30px; color: rgb(255, 255, 255); -unity-text-align: middle-left;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; width: 40%;">
+                <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+                    <ui:VisualElement style="flex-grow: 1; width: 70%;" />
+                    <ui:VisualElement name="Gold" style="flex-grow: 1; width: 30%; padding-top: 0; padding-right: 0; padding-bottom: 7%; padding-left: 0;">
+                        <ui:VisualElement name="GoldContainer" style="flex-grow: 1; flex-direction: row; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; background-color: rgba(0, 0, 0, 0.39);">
+                            <ui:VisualElement style="flex-grow: 1; width: 45%; padding-top: 10%; padding-right: 0; padding-bottom: 10%; padding-left: 20%;">
+                                <ui:VisualElement name="GoldIcon" style="flex-grow: 1; width: auto; background-color: rgba(0, 0, 0, 0); padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="GoldText" style="flex-grow: 1; width: 55%; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px;">
+                                <ui:Label tabindex="-1" text="1000" parse-escape-sequences="true" display-tooltip-when-elided="true" style="flex-grow: 1; color: rgb(255, 255, 255); font-size: 30px; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;); -unity-text-align: middle-left; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Body" style="flex-grow: 1; height: 50%;" />
+        <ui:VisualElement name="Footer" style="flex-grow: 1; height: 35%; flex-direction: row;">
+            <ui:VisualElement style="flex-grow: 1; width: 33%; padding-top: 4%; padding-right: 13%; padding-bottom: 2%; padding-left: 3%;">
+                <ui:VisualElement name="JoystickImage" style="flex-grow: 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; width: 34%;" />
+            <ui:VisualElement style="flex-grow: 1; width: 33%; padding-left: 5%;">
+                <ui:VisualElement style="flex-grow: 1; height: 40%; flex-direction: row;">
+                    <ui:VisualElement style="flex-grow: 1; width: 40%;" />
+                    <ui:VisualElement style="flex-grow: 1; width: 60%; padding-top: 2%; padding-right: 35%; padding-bottom: 4%; padding-left: 0;">
+                        <ui:VisualElement name="JumpContainer" style="flex-grow: 1; padding-top: 20%; padding-right: 20%; padding-bottom: 20%; padding-left: 20%;">
+                            <ui:VisualElement name="Skill2Image" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1; height: 60%; flex-direction: row;">
+                    <ui:VisualElement style="flex-grow: 1; width: 40%; padding-right: 3%; padding-bottom: 20%; padding-left: 11%;">
+                        <ui:VisualElement name="JumpContainer" style="flex-grow: 1; padding-top: 15%; padding-right: 17%; padding-bottom: 15%; padding-left: 17%;">
+                            <ui:VisualElement name="Skill1Image" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 1; width: 60%; padding-top: 0; padding-right: 25%; padding-bottom: 10%; padding-left: 0;">
+                        <ui:VisualElement name="JumpContainer" style="flex-grow: 1; padding-right: 17%; padding-bottom: 15%; padding-top: 15%; padding-left: 17%;">
+                            <ui:VisualElement name="JumpImage" style="flex-grow: 1;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
