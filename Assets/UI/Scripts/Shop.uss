@@ -1,0 +1,30 @@
+:root {
+    --background-img: url('project://database/Assets/Sprites/bg-9.jpg');
+    --background-img2: url('project://database/Assets/Sprites/hang-tuah.png');
+    --background-img3: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Label/label_flag_03_Demo.png');
+
+}
+
+#BackgroundImage {
+    background-image: var(--background-img);
+}
+
+#Items1Image {
+    background-image: var(--background-img2);
+}
+
+#Items2Image {
+    background-image: var(--background-img2);
+}
+
+#Items3Image {
+    background-image: var(--background-img2);
+}
+
+#Offer30 {
+    text-decoration: line-through !important;
+}
+
+#Offer30Image {
+    background-image: var(--background-img3);
+}

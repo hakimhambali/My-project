@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="FooterContainer" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="30Container" style="flex-grow: 1; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px;">
+            <ui:VisualElement name="30" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="30%" parse-escape-sequences="true" display-tooltip-when-elided="true" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;); font-size: 40px; -unity-text-align: middle-center; flex-grow: 1;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="20Container" style="flex-grow: 1;">
+            <ui:VisualElement name="20" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="20%" parse-escape-sequences="true" display-tooltip-when-elided="true" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;); font-size: 40px; -unity-text-align: middle-center; flex-grow: 1; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="10Container" style="flex-grow: 1;">
+            <ui:VisualElement name="10" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="10%" parse-escape-sequences="true" display-tooltip-when-elided="true" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;); font-size: 40px; -unity-text-align: middle-center; flex-grow: 1; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

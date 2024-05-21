@@ -35,19 +35,19 @@
         </ui:VisualElement>
         <ui:VisualElement name="Empty" style="flex-grow: 1; width: 38%;" />
         <ui:VisualElement name="Currency" style="flex-grow: 1; width: 24%; flex-direction: row;">
-            <ui:VisualElement name="Gem" style="flex-grow: 1; width: 50%; padding-top: 80px; padding-right: 30px; padding-bottom: 80px; padding-left: 30px;">
-                <ui:VisualElement name="GemContainer" style="flex-grow: 1; flex-direction: row; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; background-color: rgb(0, 0, 0);">
-                    <ui:VisualElement name="GemIcon" style="flex-grow: 1; width: 30%;" />
-                    <ui:VisualElement name="GemText" style="flex-grow: 1; width: 50%; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-center;">
-                        <ui:Label tabindex="-1" text="1000" parse-escape-sequences="true" display-tooltip-when-elided="true" style="flex-grow: 1; color: rgb(255, 255, 255); font-size: 30px; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;);" />
-                    </ui:VisualElement>
-                </ui:VisualElement>
-            </ui:VisualElement>
             <ui:VisualElement name="Gold" style="flex-grow: 1; width: 50%; padding-top: 80px; padding-right: 30px; padding-bottom: 80px; padding-left: 30px;">
                 <ui:VisualElement name="GoldContainer" style="flex-grow: 1; flex-direction: row; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; background-color: rgb(0, 0, 0);">
                     <ui:VisualElement name="GoldIcon" style="flex-grow: 1; width: 30%; background-color: rgba(0, 0, 0, 0);" />
                     <ui:VisualElement name="GoldText" style="flex-grow: 1; width: 50%; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px;">
                         <ui:Label tabindex="-1" text="1000" parse-escape-sequences="true" display-tooltip-when-elided="true" style="flex-grow: 1; color: rgb(255, 255, 255); font-size: 30px; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;); -unity-text-align: middle-center;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Gem" style="flex-grow: 1; width: 50%; padding-top: 80px; padding-right: 30px; padding-bottom: 80px; padding-left: 30px;">
+                <ui:VisualElement name="GemContainer" style="flex-grow: 1; flex-direction: row; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; background-color: rgb(0, 0, 0);">
+                    <ui:VisualElement name="GemIcon" style="flex-grow: 1; width: 30%;" />
+                    <ui:VisualElement name="GemText" style="flex-grow: 1; width: 50%; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-center;">
+                        <ui:Label tabindex="-1" text="1000" parse-escape-sequences="true" display-tooltip-when-elided="true" style="flex-grow: 1; color: rgb(255, 255, 255); font-size: 30px; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;);" />
                     </ui:VisualElement>
                 </ui:VisualElement>
             </ui:VisualElement>
