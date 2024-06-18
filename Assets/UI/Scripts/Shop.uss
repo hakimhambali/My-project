@@ -2,11 +2,30 @@
     --background-img: url('project://database/Assets/Sprites/bg-9.jpg');
     --background-img2: url('project://database/Assets/Sprites/hang-tuah.png');
     --background-img3: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Label/label_flag_03_Demo.png');
-
+    --background-img4: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_arrow_back.png?fileID=21300000&guid=c427d18e4d1b0421fadef6a901e45461&type=3#icon_white_arrow_back');
+    --background-img5: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Icon_Icons_(Original)/icon_gem_2_green.png');
+    --background-img6: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Icon_Icons_(Original)/icon_coins.png');
+    --overlay-color3: rgba(0, 0, 0, 0.8);
 }
 
 #BackgroundImage {
     background-image: var(--background-img);
+}
+
+#ShopHeader {
+    background-color: var(--overlay-color3);
+}
+
+#BackButton {
+    background-image: var(--background-img4);
+}
+
+#GemIcon {
+    background-image: var(--background-img5);
+}
+
+#GoldIcon {
+    background-image: var(--background-img6);
 }
 
 #Items1Image {

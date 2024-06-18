@@ -1,9 +1,35 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <ui:Template name="ShopHeader" src="project://database/Assets/UI/UXML/ShopHeader.uxml?fileID=9197481963319205126&amp;guid=e6b0b0ccdc73ee34e895c4a4cdc7aa0b&amp;type=3#ShopHeader" />
     <ui:Template name="ShopFooter" src="project://database/Assets/UI/UXML/ShopFooter.uxml?fileID=9197481963319205126&amp;guid=99b2c33d3ec575c4baf2f0118762a5cb&amp;type=3#ShopFooter" />
     <Style src="project://database/Assets/UI/Scripts/Shop.uss?fileID=7433441132597879392&amp;guid=dd28dc8134dc18b448c0c25b11d5e22e&amp;type=3#Shop" />
     <ui:VisualElement name="BackgroundImage" style="flex-grow: 1;">
-        <ui:Instance template="ShopHeader" name="ShopHeader" style="height: 10%;" />
+        <ui:VisualElement name="ShopHeader" style="flex-grow: 1; flex-direction: row; height: 12%;">
+            <ui:VisualElement name="BackButtonContainer" style="flex-grow: 1; width: 10%; padding-top: 1%; padding-right: 5%; padding-bottom: 1%; padding-left: 1%;">
+                <ui:VisualElement name="BackButton" style="flex-grow: 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="TitleContainer" style="flex-grow: 1; width: 70%;">
+                <ui:VisualElement name="Title" style="flex-grow: 1; padding-left: 10%;">
+                    <ui:Label tabindex="-1" text="Shop" parse-escape-sequences="true" display-tooltip-when-elided="true" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; flex-grow: 1; -unity-text-align: middle-center; font-size: 70%; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;); position: relative; left: auto; color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Currency" style="flex-grow: 1; width: 20%; flex-direction: row; padding-top: 0.8%; padding-right: 1%; padding-bottom: 0.8%; padding-left: 1%;">
+                <ui:VisualElement name="Gold" style="flex-grow: 1; width: 50%; padding-top: 1%; padding-right: 1%; padding-bottom: 1%; padding-left: 1%;">
+                    <ui:VisualElement name="GoldContainer" style="flex-grow: 1; flex-direction: row; padding-top: 5%; padding-right: 0; padding-bottom: 5%; padding-left: 0; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; background-color: rgb(0, 0, 0);">
+                        <ui:VisualElement name="GoldIcon" style="flex-grow: 1; width: 30%; background-color: rgba(0, 0, 0, 0);" />
+                        <ui:VisualElement name="GoldText" style="flex-grow: 1; width: 50%; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px;">
+                            <ui:Label tabindex="-1" text="1000" parse-escape-sequences="true" display-tooltip-when-elided="true" style="flex-grow: 1; color: rgb(255, 255, 255); font-size: 30px; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;); -unity-text-align: middle-center;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Gem" style="flex-grow: 1; width: 50%; padding-top: 1%; padding-right: 1%; padding-bottom: 1%; padding-left: 1%;">
+                    <ui:VisualElement name="GemContainer" style="flex-grow: 1; flex-direction: row; padding-top: 7%; padding-right: 0; padding-bottom: 7%; padding-left: 0; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; background-color: rgb(0, 0, 0);">
+                        <ui:VisualElement name="GemIcon" style="flex-grow: 1; width: 30%;" />
+                        <ui:VisualElement name="GemText" style="flex-grow: 1; width: 50%; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-center;">
+                            <ui:Label tabindex="-1" text="1000" parse-escape-sequences="true" display-tooltip-when-elided="true" style="flex-grow: 1; color: rgb(255, 255, 255); font-size: 30px; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;);" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
         <ui:VisualElement name="ShopTitleContainer" style="flex-grow: 1; flex-direction: column; height: 10%; padding-top: 1%; padding-bottom: 1%;">
             <ui:VisualElement name="ShopTitle" style="flex-grow: 1; padding-top: 0; padding-right: 5%; padding-bottom: 0; padding-left: 5%; flex-direction: row;">
                 <ui:VisualElement name="OffersContainer" style="flex-grow: 1; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
@@ -43,7 +69,7 @@
                 </ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>
-        <ui:VisualElement name="Body" style="flex-grow: 1; height: 70%; padding-top: 2%; padding-right: 2%; padding-bottom: 2%; padding-left: 2%; flex-direction: row;">
+        <ui:VisualElement name="Body" style="flex-grow: 1; height: 68%; padding-top: 2%; padding-right: 2%; padding-bottom: 2%; padding-left: 2%; flex-direction: row;">
             <ui:VisualElement name="Off" style="flex-grow: 1; position: absolute; left: 5%; top: 18%; background-color: rgb(38, 97, 156); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;">
                 <ui:Label tabindex="-1" text="RM100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Offer30" style="-unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;); font-size: 50px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
             </ui:VisualElement>

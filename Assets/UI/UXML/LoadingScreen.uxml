@@ -7,10 +7,9 @@
         <ui:VisualElement name="VisualElement" style="flex-grow: 1; height: 15%;">
             <ui:VisualElement name="LoadingProgress" style="flex-grow: 1; margin-top: 2%; margin-right: 20%; margin-bottom: 0; margin-left: 20%;">
                 <ui:VisualElement style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 2%; padding-right: 2%; padding-bottom: 3%; padding-left: 2%;">
-                    <ui:VisualElement name="LoadingProgressPercent" style="flex-grow: 1; -unity-text-align: upper-left;">
-                        <ui:Label tabindex="-1" text="80%" parse-escape-sequences="true" display-tooltip-when-elided="true" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(255, 255, 255); -unity-text-align: middle-center; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;); font-size: 45px;" />
-                    </ui:VisualElement>
+                    <ui:VisualElement name="LoadingProgressPercent" style="flex-grow: 1; -unity-text-align: upper-left;" />
                 </ui:VisualElement>
+                <ui:Label tabindex="-1" text="80%" parse-escape-sequences="true" display-tooltip-when-elided="true" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(255, 255, 255); -unity-text-align: middle-center; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Fonts/Alata-Regular.ttf?fileID=12800000&amp;guid=45051d5d816ef4b8d84119f09ef942fb&amp;type=3#Alata-Regular&apos;); font-size: 45px; position: absolute; left: 50%; bottom: 30%; right: 50%;" />
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement style="flex-grow: 1; height: 10%; padding-bottom: 0;">
