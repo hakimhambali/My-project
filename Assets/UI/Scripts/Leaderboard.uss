@@ -1,17 +1,28 @@
 :root {
-    --background-img: url('project://database/Assets/Sprites/bg-9.jpg?fileID=2800000&guid=0d6c6daf39602c7419e6019a972df621&type=3#bg-9');
-    --background-img2: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Button/btn_rectangle_02.png?fileID=21300000&guid=ca51e3dcb41444a068afc7f32c9d0214&type=3#btn_rectangle_02');
-    --background-img3: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_country_flag_tur.png?fileID=21300000&guid=067aa48ab53bf4f768725b99a1e31204&type=3#icon_country_flag_tur');
-    --background-img4: url('project://database/Assets/Sprites/hang_tuah_avatar.png?fileID=2800000&guid=3f51d1cfcfeb9ce4cb5033e88982129b&type=3#hang_tuah_avatar');
-    --background-img5: url('project://database/Assets/Sprites/prof-pic.png?fileID=2800000&guid=84c984a4d355f5f45b35ff1e481bf2f9&type=3#prof-pic');
-    --background-img6: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Icon_Icons_(Original)/icon_star.png?fileID=21300000&guid=cb3b033b32d3e45cb9d2c9e41ca8ae94&type=3#icon_star');
-    --background-img7: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_arrow_back.png?fileID=21300000&guid=c427d18e4d1b0421fadef6a901e45461&type=3#icon_white_arrow_back');
+    --background-img3: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_country_flag_tur.png');
+    --background-img4: url('project://database/Assets/Sprites/hang_tuah_avatar.png');
+    --background-img5: url('project://database/Assets/Sprites/prof-pic.png');
+    --background-img6: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Icon_Icons_(Original)/icon_star.png');
+    --background-img7: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_arrow_back.png');
     --overlay-color3: rgba(0, 0, 0, 0.8);
     --overlay-color: rgba(0, 0, 0, 0.4);
+
+    /*orange bg*/
+    --background-img: url('project://database/Assets/Sprites/bg-9.jpg');
+
+    /*blue bg*/
+    --background-img8: url("project://database/Assets/Sprites/bg-14.jpg");
+
+    /*blue button*/
+    --background-img2: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Button/btn_rectangle_02.png');
+
+    /*orange button*/
+    --background-img9: url("project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Button/btn_rectangle_01_n_yellow.png");
 }
 
 #BackgroundImage {
-    background-image: var(--background-img);
+    /*background-image: var(--background-img);*/
+    background-image: var(--background-img8);
 }
 
 #BackButton {
@@ -23,7 +34,8 @@
 }
 
 .Filter {
-    background-image: var(--background-img2);
+    /*background-image: var(--background-img2);*/
+    background-image: var(--background-img9);
 }
 
 #CountryImage {
@@ -32,6 +44,9 @@
 
 #WarriorProfImage {
     background-image: var(--background-img4);
+    /*background-color: #FF9E00*/
+    /*background-color: #000000*/
+    /*background-color: #FFFFFF*/
 }
 
 #ProfPicImage {
@@ -41,4 +56,12 @@
 #RankPointsImage {
     background-image: var(--background-img6);
     background-size: 60%;
+}
+
+#OverlayLeaderboard {
+    /*background-color: #FF9E00*/
+    /*background-color: #000000*/
+}
+
+#Ranking {
 }

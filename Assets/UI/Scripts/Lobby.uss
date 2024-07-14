@@ -1,21 +1,21 @@
 :root {
-    --background-img: url('project://database/Assets/Sprites/bg-11.png?fileID=2800000&guid=800a8450e21223d469f71605b326fa2f&type=3#bg-11');
-    --background-img2: url('project://database/Assets/Sprites/hang_tuah_avatar.png?fileID=2800000&guid=3f51d1cfcfeb9ce4cb5033e88982129b&type=3#hang_tuah_avatar');
-    --background-img3: url('project://database/Assets/Sprites/hang-tuah2.png?fileID=2800000&guid=e7ddecd0671c846408212a272189f9d3&type=3#hang-tuah2');
-    --background-img4: url('project://database/Assets/Sprites/hang-tuah-avatar-round.png?fileID=2800000&guid=9a7dc42b1bb4371448131d9c4539f886&type=3#hang-tuah-avatar-round');
-    --background-img5: url('project://database/Assets/Sprites/mic-icon.png?fileID=2800000&guid=b1399b585d10be84fb5961bfc0a3f5c3&type=3#mic-icon');
-    --background-img7: url('project://database/Assets/Sprites/mic-icon2.png?fileID=2800000&guid=4d3f141d8d8872446a9e89b75c87f620&type=3#mic-icon2');
-    --background-img6: url('project://database/Assets/Sprites/send-icon.png?fileID=2800000&guid=80e720420fbbfd141bf9b311c2c0a568&type=3#send-icon');
-    --background-img8: url('project://database/Assets/Sprites/send-icon2.png?fileID=2800000&guid=a2f8ebb11e736844b8fc08bbd6bf4b86&type=3#send-icon2');
-    --background-img9: url('project://database/Assets/Sprites/chat-icon.png?fileID=2800000&guid=30ddf31574ab38e4c8af06d7646ecdff&type=3#chat-icon');
-    --background-img10: url('project://database/Assets/Sprites/skill.png?fileID=2800000&guid=ce7ceee438dd8114ba541769202461d5&type=3#skill');
-    --background-img11: url('project://database/Assets/Sprites/skill2.png?fileID=2800000&guid=dad0162fde9d8c84a91cf461040318e9&type=3#skill2');
-    --background-img12: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Button/btn_rectangle_01_n_yellow.png?fileID=21300000&guid=ae9f8677ca3c24a7c80d7217a941f886&type=3#btn_rectangle_01_n_yellow');
-    --background-img13: url('project://database/Assets/Sprites/time.png?fileID=2800000&guid=b7b020f91f478eb4388b56969755cd55&type=3#time');
-    --background-img14: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Icon_Icons_(Original)/icon_equip_helmet_0.png?fileID=21300000&guid=1849ce965d25846a0b339e0cc66c0f75&type=3#icon_equip_helmet_0');
-    --background-img15: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Icon_Icons_(Original)/icon_equip_shield.png?fileID=21300000&guid=8a6736e978b904bdaa3bec0c542b114d&type=3#icon_equip_shield');
-    --background-img16: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Icon_Icons_(Original)/icon_equip_arrow.png?fileID=21300000&guid=bfa9342055be84620a135d4e80743a53&type=3#icon_equip_arrow');
-    --background-img17: url('project://database/Assets/Sprites/hang-tuah-landscape.png?fileID=2800000&guid=56e77e8c73b4a304cbf2090b558bc473&type=3#hang-tuah-landscape');
+    --background-img: url('project://database/Assets/Sprites/bg-11.png');
+    --background-img2: url('project://database/Assets/Sprites/hang_tuah_avatar.png');
+    --background-img3: url('project://database/Assets/Sprites/hang-tuah2.png');
+    --background-img4: url('project://database/Assets/Sprites/hang-tuah-avatar-round.png');
+    --background-img5: url('project://database/Assets/Sprites/mic-icon.png');
+    --background-img7: url('project://database/Assets/Sprites/mic-icon2.png');
+    --background-img6: url('project://database/Assets/Sprites/send-icon.png');
+    --background-img8: url('project://database/Assets/Sprites/send-icon2.png');
+    --background-img9: url('project://database/Assets/Sprites/chat-icon.png');
+    --background-img10: url('project://database/Assets/Sprites/skill.png');
+    --background-img11: url('project://database/Assets/Sprites/skill2.png');
+    --background-img12: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Button/btn_rectangle_01_n_yellow.png');
+    --background-img13: url('project://database/Assets/Sprites/time.png');
+    --background-img14: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Icon_Icons_(Original)/icon_equip_helmet_0.png');
+    --background-img15: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Icon_Icons_(Original)/icon_equip_shield.png');
+    --background-img16: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Icon_Icons_(Original)/icon_equip_arrow.png');
+    --background-img17: url('project://database/Assets/Sprites/hang-tuah-landscape.png');
     --overlay-color: rgba(0, 0, 0, 0.2);
 }
 

@@ -1,9 +1,0 @@
-:root {
-    --background-img2: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_arrow_back.png?fileID=21300000&guid=c427d18e4d1b0421fadef6a901e45461&type=3#icon_white_arrow_back');
-}
-
-#BackButton {
-    background-image: var(--background-img2);
-}
-
-

@@ -1,14 +1,25 @@
 :root {
-    --background-img: url('project://database/Assets/Sprites/bg-9.jpg?fileID=2800000&guid=0d6c6daf39602c7419e6019a972df621&type=3#bg-9');
-    --background-img2: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_arrow_back.png?fileID=21300000&guid=c427d18e4d1b0421fadef6a901e45461&type=3#icon_white_arrow_back');
-    --background-img3: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Button/btn_rectangle_02.png');
+    --background-img2: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_arrow_back.png');
     --overlay-color: rgba(0, 0, 0, 0.4);
     --overlay-color2: rgba(0, 0, 0, 0.6);
     --overlay-color3: rgba(0, 0, 0, 0.8);
+
+    /*orange bg*/
+    --background-img: url('project://database/Assets/Sprites/bg-9.jpg');
+
+    /*blue bg*/
+    --background-img4: url("project://database/Assets/Sprites/bg-14.jpg");
+
+    /*blue button*/
+    --background-img3: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Button/btn_rectangle_02.png');
+
+    /*orange button*/
+    --background-img5: url("project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Button/btn_rectangle_01_n_yellow.png");
 }
 
 #BackgroundImage {
-    background-image: var(--background-img);
+    /*background-image: var(--background-img);*/
+    background-image: var(--background-img4);
 }
 
 #BackButton {
@@ -32,5 +43,10 @@
 }
 
 #ConnectButton {
-    background-image: var(--background-img3);
+    /*background-image: var(--background-img3);*/
+    background-image: var(--background-img5);
+}
+
+#SettingsHeaderLabel {
+    font-size: 80% !important;
 }
