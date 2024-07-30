@@ -1,0 +1,61 @@
+:root {
+    --setting-icon: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Icon_Icons_(Original)/icon_setting.png');
+    --gem-icon: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Icon_Icons_(Original)/icon_gem_2_green.png');
+    --gold-icon: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Icon_Icons_(Original)/icon_coins.png');
+    --profile-container: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Slider/slider_icontype_03_icon_l.png');
+    --profile-avatar: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_menu05_boss.png');
+    --rank-icon: url('project://database/Assets/Sprites/rank.png');
+    --battlepass-icon: url("project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_ticket_gold.png");
+    --level-container: url("project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Slider/slider_icontype_05_icon1.png");
+    --background-img10: url('project://database/Assets/Layer%20Lab/GUI%20Pro-FantasyRPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_01_frame_purple1.png');
+}
+
+#SettingIcon {
+    background-image: var(--setting-icon);
+}
+
+#GemIcon {
+    background-image: var(--gem-icon);
+}
+
+#GoldIcon {
+    background-image: var(--gold-icon);
+}
+
+#ProfileIcon {
+    background-image: var(--profile-container);
+}
+
+#ProfileAvatar {
+    background-image: var(--profile-avatar);
+}
+
+#RankSliderProgressBar {
+    background-color: orange;
+    width: 50%;
+}
+
+#ContainerRank {
+    background-image: var(--background-img10);
+}
+
+#RankIcon {
+    background-image: var(--rank-icon);
+}
+
+#ContainerBattlePass {
+    background-image: var(--background-img10);
+}
+
+#BattlePassIcon {
+    background-image: var(--battlepass-icon);
+}
+
+#SliderProgressBar {
+    background-color: orange;
+    width: 80%;
+}
+
+#Level {
+    background-image: var(--level-container);
+}

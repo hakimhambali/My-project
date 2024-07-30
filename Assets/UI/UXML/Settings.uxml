@@ -1,6 +1,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI/Scripts/Settings.uss?fileID=7433441132597879392&amp;guid=d5161de7a228d7740977f988bd458afd&amp;type=3#Settings" />
-    <ui:VisualElement name="BackgroundImage" style="flex-grow: 1;">
+    <Style src="project://database/Assets/UI/Styles/Settings.uss?fileID=7433441132597879392&amp;guid=d5161de7a228d7740977f988bd458afd&amp;type=3#Settings" />
+    <Style src="project://database/Assets/UI/Styles/MainUSS.uss?fileID=7433441132597879392&amp;guid=4ceb09a31cc88c1459aeaae2fffa5d8e&amp;type=3#MainUSS" />
+    <ui:VisualElement name="BackgroundImage" style="flex-grow: 1; display: flex;">
         <ui:VisualElement name="SettingsHeader" style="flex-grow: 1; flex-direction: row; width: auto; height: 12%;">
             <ui:VisualElement name="BackButtonContainer" style="flex-grow: 1; width: 10%; padding-top: 1%; padding-right: 5%; padding-bottom: 1%; padding-left: 1%;">
                 <ui:VisualElement name="BackButton" style="flex-grow: 1;" />
